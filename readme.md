@@ -17,9 +17,9 @@ A personal portfolio that includes an about section, my projects and the social 
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [https://www.simplytabitha.com/](http://www.denisechandler.com/)%7C landing page animation
-|[http://www.rleonardi.com/interactive-resume/](http://jkeohan.com/) | animation/games|
-| [https://www.lianapenn.com/](http://mattfarley.ca/) |  Project display
+| [https://www.simplytabitha.com/] | landing page animation| 
+|[http://www.rleonardi.com/interactive-resume/]| animation/games|
+| [https://www.lianapenn.com/]|  Project display| 
 
 
 ## Wireframes
@@ -52,7 +52,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| HTML and CSS setup | H |  5hr | :---: | 
+| HTML and CSS setup | H |  5hr | hr| 
 | Hamburger | H | 1hr | hr |
 | Project Previews | H | 3hr | hr |
 | Regular Nav | H | 2hr | hr |  
@@ -64,6 +64,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 28hrs| hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: | 
 | Interactive Banner | M | 4hr | hr |
 | Bootstrap | H | 2hr | hr |
 | Animation | H | 4hr | hr |
