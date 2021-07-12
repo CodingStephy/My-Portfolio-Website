@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
     <script src="./js/app.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
     
@@ -16,20 +22,112 @@
           <div class="nav"> 
            <nav>
             <ul class='Menu'>
-                <li ><a href="#about me">ABOUT ME</a></li>
-                <li ><a href="#my projects">MY PROJECTS</a></li>
-                <li ><a href="#contact me">CONTACT ME</a></li>
+                <li ><a href="#About">ABOUT ME</a></li>
+                <li ><a href="#Project">MY PROJECTS</a></li>
+                <li ><a href="#contact">CONTACT ME</a></li>
               </ul> 
              </nav>
              <h1>Stephanie Liu</h1>
+             
             </div>                             
     </header>
-    <section class ="About me"> 
-        <span id ="profile"><img src="https://imgur.com/aT4AlFT.jpg" alt="my profile pic"></span>
-        <div class="introduction"><p>Hi I am stephanie! I recently graduated from the University of Chicago with a MA in Art History. I also hold a Bachelor's degree from St. John's College in Philosophy and the History of Math and Science. I speak Chinese, English, French, German and I read Ancient Greek! Although coming from a humanities-focused background, I have always been passionate about technologies. So I am now learning how to code and training to be a software developer. If you would like to know more about me, please follow me on my journey... </p> </div>
-            <div id ="bubble"></div>
-
+    <section class ="Introduction"> 
+        <span id ="profile"><img src="https://res.cloudinary.com/dt5zbnwvr/image/upload/v1626106831/1322815307_xrlyfz.jpg" alt="my profile pic"></span>
+        <p class="speech">Hi I am stephanie! Although coming from a humanities-focused background, I have always been passionate about technologies and hope to explore the intersection of technology, humanities and art. So I am now learning to code and training to be a software developer. If you would like to learn more about me, please follow me on my journey... </p> </div>
        </section>
-    
+    <section class ="About">
+        <p>About Me</p>
+    <!-- Followed a online tutorial for making timelines -->
+        <div class="timeline">
+            <div id="timeline__event">
+              <div class="timeline__icon ">
+                <i class="lni-cake"></i>
+                <div class="timeline__title">
+                    Hangzhou,China
+                  </div>
+              <div class="timeline__content ">
+                <div class="timeline__description">
+                  <p>I was born and raised in a beautiful city in China.</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <div class="timeline__icon">
+                <i class="lni-burger"></i>
+                <div class="timeline__title">
+                    Annapolis,United States
+                </div>
+              </div>
+              <div class="timeline__event__content">
+                <div class="timeline__description">
+                  <p>I moved to the U.S when I was 18. I attended a quirky liberal art college called St. John's College, where I studied philosophy and history of math and science. In my spare time I love to make art and I was awarded the prize of best art for the senior class.</p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <div class="timeline__event__icon">
+                <i class="lni-slim"></i>
+                <div class="timeline__event">
+                  Aix-en-Provence, France
+                </div>
+              </div>
+                
+                <div class="timeline__event__description">
+                  <p>In my junior year of college, I studied abroad in France. I took painting and french classes while exploring the romantic Provence scenery . </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline__event">
+              <div class="timeline__event__icon">
+                <i class="lni-cake"></i>
+                <div class="timeline__event__title">
+                  Chicago,United States
+                </div>
+              </div>
+              <div class="timeline__event__content">
+                <div class="timeline__event__description">
+                  <p>I recently graduated from the University of Chicago with a MA in Art History. My research primarily focuses on 19th century French art, exhibition practices and the culture exchange between China, Japan and Europe. </p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+    </section>
+    <section class="Project"></section>
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" >
+        <div class="card-body">
+          <p class="card-text">"This is a project about my favorite movies".</p>
+          <div class="card-body">
+            <a href="#" class="card-link">Link</a>
+          </div>
+        </div>
+          
+        </div>
+      </div>
+    <section class="Contact"></section>
+    <footer>
+        <p>Get in Touch</p>
+        <div class="socialmedia">
+          <a class="instagram" href="https://www.instagram.com/stephyliu48/"
+            ><img
+              src="https://res.cloudinary.com/dt5zbnwvr/image/upload/c_scale,w_70/v1626108439/3225191_app_instagram_logo_media_popular_icon_xbghfr.png"
+              alt="Instagram"
+            />
+          </a>
+          <a class="socialmedia" href="https://github.com/CodingStephy">
+            <img
+              src="https://res.cloudinary.com/dt5zbnwvr/image/upload/c_scale,w_70/v1626108439/317712_code_repository_github_repository_resource_icon_q54jml.png"
+              alt="Github"
+            />
+          </a>
+          <a class="socialmedia" href="https://www.linkedin.com/in/yuan-stephanie-liu-6937691b5/"
+            ><img
+              src="https://res.cloudinary.com/dt5zbnwvr/image/upload/c_scale,w_70/v1626108439/834713_linkedin_icon_g9gqds.png"
+              alt="LinkedIn"
+          /></a>
+        </div>
+        <p class="copyright-text"> Stephanie Liu-All Rights Reserved</p>
+      </footer>
 </body>
 </html>
