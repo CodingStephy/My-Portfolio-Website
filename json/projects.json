@@ -1,0 +1,15 @@
+[
+ {
+  "title": "The Kizuna Archive",
+  "image": "https://res.cloudinary.com/dt5zbnwvr/image/upload/v1626143960/Screen_Shot_2021-07-12_at_9.35.07_PM_wk06lf.png",
+  "description":"A website for a Chicago-based commemoration project for the 2011 earthquake and tsunami in Japan, remembering the victims of disaster and documenting the region's recovery.",
+  "link":"https://www.311kizunachicago.com/home"
+ }, 
+{
+    "title":"The Lord of the Rings Website",
+    "image":"https://res.cloudinary.com/dt5zbnwvr/image/upload/v1626145150/Screen_Shot_2021-07-12_at_9.56.43_PM_tzxfhc.png",
+    "description":"A fun responsive website that uses Jquery to document thee adventure in The Lord of the Rings.",
+    "link": ""
+
+}
+]
