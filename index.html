@@ -36,7 +36,7 @@
         <p class="speech">Hi I am stephanie! Although coming from a humanities-focused background, I have always been passionate about technologies and hope to explore the intersection of technology, humanities and art. So I am now learning to code and training to be a software developer. If you would like to learn more about me, please follow me on my journey... </p> </div>
        </section>
     <section class ="About">
-        <p>About Me</p>
+        <h2>About Me</h2>
     <!-- Followed a online tutorial for making timelines -->
         <div class="timeline">
             <div id="timeline__event">
@@ -65,27 +65,27 @@
               </div>
             </div>
             <div class="timeline__event">
-              <div class="timeline__event__icon">
+              <div class="timeline__icon">
                 <i class="lni-slim"></i>
                 <div class="timeline__event">
                   Aix-en-Provence, France
                 </div>
               </div>
                 
-                <div class="timeline__event__description">
+                <div class="timeline__description">
                   <p>In my junior year of college, I studied abroad in France. I took painting and french classes while exploring the romantic Provence scenery . </p>
                 </div>
               </div>
             </div>
             <div class="timeline__event">
-              <div class="timeline__event__icon">
+              <div class="timeline__icon">
                 <i class="lni-cake"></i>
-                <div class="timeline__event__title">
+                <div class="timeline__title">
                   Chicago,United States
                 </div>
               </div>
-              <div class="timeline__event__content">
-                <div class="timeline__event__description">
+              <div class="timeline__content">
+                <div class="timeline__description">
                   <p>I recently graduated from the University of Chicago with a MA in Art History. My research primarily focuses on 19th century French art, exhibition practices and the culture exchange between China, Japan and Europe. </p>
                 </div>
               </div>
@@ -94,6 +94,7 @@
           </div>
     </section>
     <section class="Project"></section>
+    <h2>My Projects</h2>
     <div class="card" style="width: 18rem;">
         <img src="..." class="card-img-top" >
         <div class="card-body">
@@ -106,6 +107,28 @@
         </div>
       </div>
     <section class="Contact"></section>
+      <h2>Concat Me</h2>
+      <form id ="my-form" action="https://formspree.io/f/xqkwdpkw" method="POST">
+        <label>
+            Your name:
+            <input name="name" type="name">
+                </label>
+        <label>
+        Your email:
+            <input name="email" type="email">
+            </label>
+            <label>
+         Your message:
+        <textarea name="message"></textarea>
+            </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+  <p id ="contact-status"></p>
+</form>
+
+
     <footer>
         <p>Get in Touch</p>
         <div class="socialmedia">
@@ -129,5 +152,27 @@
         </div>
         <p class="copyright-text"> Stephanie Liu-All Rights Reserved</p>
       </footer>
+      <script>
+        var form = document.getElementById("my-form");
+        
+        async function handleSubmit(event) {
+          event.preventDefault();
+          var status = document.getElementById("my-form-status");
+          var data = new FormData(event.target);
+          fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+          }).then(response => {
+            status.innerHTML = "Thanks for your submission!";
+            form.reset()
+          }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
 </body>
 </html>
