@@ -9,7 +9,12 @@ h1 {
 h2{ 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
       color: white;
-    text-align: center; 
+      text-align: center; 
+      font: size 25px;
+}
+
+h3{
+    color:white; 
 }
 
 body{ 
@@ -20,7 +25,6 @@ body{
     height: 100%; 
     margin:0; 
 }
-
 
 ul { 
     display:flex; 
@@ -141,14 +145,14 @@ p {
 
 .timeline .timeline-container .timeline-icon {
   position: absolute;
-  left: -88px;
+  left: -80px;
   top: 4px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   text-align: center;
   font-size: 2rem;
-  background: #4f537b;
+  background: #6b71af;
 }
 
 .timeline .timeline-container .timeline-icon i {
@@ -166,7 +170,8 @@ p {
 }
 
 .timeline .timeline-container .timeline-body {
-  background: #27293d;
+  background: rgb(22, 16, 16);
+  opacity: 0.8; 
   border-radius: 3px;
   padding: 20px 20px 15px;
   -webkit-box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.1);
@@ -191,7 +196,7 @@ p {
 }
 
 .timeline .timeline-container .timeline-body .timeline-title .badge {
-  background: #4f537b;
+  background:rgb(22, 16, 16);
   padding: 4px 8px;
   border-radius: 3px;
   font-size: 12px;
@@ -206,30 +211,26 @@ p {
   font-size: 11px;
 }
 
-.timeline .timeline-container.primary .badge,
-.timeline .timeline-container.primary .timeline-icon {
-  background: #1d8cf8 !important;
+.timeline .timeline-container.home .badge,
+.timeline .timeline-container.home .timeline-icon {
+  background: #ee62b8 !important;
 }
 
-.timeline .timeline-container.info .badge,
-.timeline .timeline-container.info .timeline-icon {
-  background: #11cdef !important;
+.timeline .timeline-container.college .badge,
+.timeline .timeline-container.college .timeline-icon {
+  background: #53b5e2 !important;
 }
 
-.timeline .timeline-container.success .badge,
-.timeline .timeline-container.success .timeline-icon {
-  background: #00bf9a !important;
+.timeline .timeline-container.france .badge,
+.timeline .timeline-container.france .timeline-icon {
+  background: #b82df0 !important;
 }
 
-.timeline .timeline-container.warning .badge,
-.timeline .timeline-container.warning .timeline-icon {
-  background: #ff8d72 !important;
+.timeline .timeline-container.now .badge,
+.timeline .timeline-container.now .timeline-icon {
+  background: #12b375 !important;
 }
 
-.timeline .timeline-container.danger .badge,
-.timeline .timeline-container.danger .timeline-icon {
-  background: #fd5d93 !important;
-}
 
 .author {
   font-family: inherit;
@@ -274,7 +275,7 @@ p {
 .author .btn:visited:hover,
 .author .btn:visited:focus,
 .author .btn:visited:active {
-  background-color: #1a1a1a;
+  background-color: #555353;
 }
 
 #profile.page-section{
@@ -288,11 +289,11 @@ p {
 }
 
 .page-section h3.section-subheading {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
-  text-transform: none;
+  color:white; 
+  margin-bottom: 50px;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -330,8 +331,9 @@ img::-moz-selection {
 }
 
 .btn-xl {
-  font-size: 18px;
+  font-size: 20px;
   padding: 20px 10px;
+  color:white; 
 }
 
 .footer {
@@ -382,15 +384,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin-right: auto;
     width:80%; 
     padding: 10px;
-    display: grid;
-    gap: 20px;
+    display: flex;
+    flex-direction:row; 
+    flex-wrap:wrap; 
+    margin:0 auto; 
 }
 
 #projects .link{
     color:black; 
     margin-left: 45px;
 }
-
+/* #projects .section-heading{
+    margin:0 auto; 
+} */
 /* contact form */
 #contact input{
         width: 100%;
@@ -398,7 +404,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
-        font-size: 25px;
+        font-size: 20px;
         border: 2px solid #ccc;
 }
 
@@ -408,18 +414,23 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    font-size: 25px;
+    font-size: 20px;
     border: 2px solid #ccc;
 }
 
 #contact button{
     width: 50%; 
-    background-color:sienna;
+    background-color:saddlebrown; 
     border: none;
     color: white;
     padding: 16px 16px;
+    font-size: 20px;
     text-decoration: none;
     margin: 4px 4px;
     cursor: pointer;
+}
+#contact label{
+    color:white; 
+    font-size: 20px;
 }
 
