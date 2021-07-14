@@ -54,10 +54,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| HTML and CSS setup | H |  5hr | hr| 
+| HTML and CSS setup | H |  5hr | 8hr| 
 | Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 2hr | hr |  
+| Project Previews | H | 3hr | 2hr |
+| Regular Nav | H | 2hr | 1hr |  
 | Adding Form | L | 2hr|  hr | 
 | Buttons/Interactive Icons| M | 3hr | hr|
 | Working with API | H | 6hrs|  hr | 
