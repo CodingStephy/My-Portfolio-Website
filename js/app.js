@@ -2,10 +2,6 @@ const $projects = $("#projects");
 $.ajax("./json/projects.json")
 .then(data => {
     data.forEach(project => {
-        // const $project = $("#projects");
-        // const $title = $("<h2>").addClass("name").text(`${project.name}`);
-        // const $description = $("<h3>").addClass("description").text(`${project.description}`);
-        // $project.append($title).append($description);
         const $project = $(`
         <div class="card" style="width: 18rem;">
           <img src="${project.image}" class="card-img-top" alt="">
