@@ -4,13 +4,13 @@ This schedule will be used to keep track of your progress throughout the week an
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3 /Sunday| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4/ Monday| Project Preview &Nav &Flex | Incomplete
-|Day 5/ Tuesday| Responsive & Interactive Icon| Incomplete
-|Day 6/ Wednesday| API& Final Touches | Incomplete
-|Day 7/ Thursday| Present | Incomplete
+|Day 1| Project Description | complete
+|Day 1| Wireframes / Priority Matrix / Timeline | complete
+|Day 3 /Sunday| Core Application Structure (HTML, CSS, etc.) | complete
+|Day 4/ Monday| Project Preview &Nav &Flex | complete
+|Day 5/ Tuesday| Responsive & Interactive Icon| complete
+|Day 6/ Wednesday| API& Final Touches | complete
+|Day 7/ Thursday| Present | complete
 ## Project Description
 A personal portfolio that includes an about section, my projects and the social media contact. 
 ## Portfolio I want to Emulate
@@ -113,7 +113,7 @@ p.speech:after {
               <p class="card-description">${project.description}</p>
               <a class="link" href="${project.link}">Click for details</a>
             </div>// code for project card 
-			
+
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 #### SAMPLE.....
