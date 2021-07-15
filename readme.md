@@ -55,22 +55,22 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | HTML and CSS setup | H |  5hr | 8hr| 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | 2hr |
-| Regular Nav | H | 2hr | 1hr |  
-| Adding Form | L | 2hr|  hr | 
-| Buttons/Interactive Icons| M | 3hr | hr|
-| Working with API | H | 6hrs|  hr | 
-| Responsive | H | 5hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 28hrs| hrs |
+| Hamburger | H | 1hr | 1hr |
+| Project Previews | H | 3hr | 3hr |
+| Navbar | H | 2hr | 1hr |  
+| Adding Form | L | 2hr|  3hr | 
+| Buttons/Interactive Icons| M | 3hr | 1hr|
+| Working with API | H | 6hrs|  2hr | 
+| Responsive | H | 5hr | 5hr |
+| Social Media Icons | L | 1hr |  1hr |
+| Total | H | 28hrs| 25hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Interactive Banner | M | 4hr | hr |
-| Bootstrap | H | 2hr | hr |
+| Bootstrap | H | 2hr | 2hr |
 | Animation | H | 4hr | hr |
-| Total | H | 10hrs| hrs |
+| Total | H | 10hrs| 2hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 ## Code Snippet
