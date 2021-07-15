@@ -73,15 +73,55 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 10hrs| 2hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
+ bootstrap: for nav bar 
+ fontawesome: for icons 
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+//p.speech{
+    position: relative;
+    background: #6594bf; opacity: 0.8;
+    margin-left: 20px; 
+    margin-right: 5px;
+    margin-top:-10px; 
+    color:white; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 0px #A3A3A3 ;
+    text-align: center;
+    border-radius: 22px;
+    padding: 10px;
 }
-```
+p.speech:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #6594bf transparent;
+    border-width: 10px 11px 0;
+    bottom: -10px;
+    left: 30%;
+    margin-left: -11px;
+} // here is the code for speech bubble layout 
+
+//<div class="card" style="width: 18rem;">
+          <img src="${project.image}" class="card-img-top" alt="">
+            <div class="card-body">
+             <h5 class="card-title">${project.title}</h5>
+              <p class="card-description">${project.description}</p>
+              <a class="link" href="${project.link}">Click for details</a>
+            </div>// code for project card 
+			
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
+
+**ERROR**: background image not displayed properly 
+**RESOLUTION**: deleting the extra span tag 
+
+**ERROR**: projects card not linked to bootstrap 
+**RESOLUTION**: including a bootstrap sample in 
